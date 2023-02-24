@@ -31,6 +31,9 @@ img {
     background: radial-gradient(#fc910483, #CEBEAE 70%);
     height: 80%;
 }
+.networks{
+    align-items: center;
+}
 .networks-img{
     width: 100px;
     @include md{
@@ -51,4 +54,7 @@ img {
     @include sm{
         margin-right: -50px;
       }
+}
+.twttr{
+    padding-bottom: 2px;
 }
