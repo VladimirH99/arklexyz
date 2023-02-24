@@ -5,78 +5,89 @@
   box-sizing: border-box;
 }
 
-html {
-  overflow-y: scroll;
-  // letter-spacing: 0.1em;
-  font-family: $font-main;
-  font-size: $font-size;
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  src: local('Gilroy'),
+      url('/assets/fonts/Gilroy-Light.otf') format('otf')
 }
 
-h1 {
-  text-align: center;
-  letter-spacing: 0.08em;
-  color: $color-light;
-  font-family: $font-header;
-
-  @include lg-min {
-    font-size: 3.75rem;
-    font-weight: 300;
-    line-height: 1.2;
+body {
+  background-color: #CEBEAE;
+  padding: 40px 100px;
+  @include md{
+    padding: 20px 20px;
   }
+}
 
-  @include lg-md {
-      font-size: 2.5rem;
-    font-weight: 300;
-    line-height: 1.2;
-    }
+// h1 {
+//   text-align: center;
+//   letter-spacing: 0.08em;
+//   color: $color-light;
+//   font-family: $font-header;
+
+//   @include lg-min {
+//     font-size: 3.75rem;
+//     font-weight: 300;
+//     line-height: 1.2;
+//   }
+
+//   @include lg-md {
+//       font-size: 2.5rem;
+//     font-weight: 300;
+//     line-height: 1.2;
+//     }
   
-  @include md {
-    font-size: 1.875rem;
-    font-weight: 300;
-    line-height: 1.2;
-   }
-}
+//   @include md {
+//     font-size: 1.875rem;
+//     font-weight: 300;
+//     line-height: 1.2;
+//    }
+// }
 
-h2 {
-  letter-spacing: 0.1em;
-  color: $color-primary;
-  font-family: $font-header;
-  line-height: 1.2em;
+// h2 {
+//   letter-spacing: 0.1em;
+//   color: $color-primary;
+//   font-family: $font-header;
+//   line-height: 1.2em;
 
-  @include lg-min {
-    margin-bottom: 3rem;
-    font-size: 2.5rem;
-  }
-  @include lg-md {
-    margin-bottom: 2.625rem;
-    font-size: 2rem;
-  }
-  @include md-sm {
-    margin-bottom: 2.25rem;
-    font-size: 1.5rem;
-  }
-  @include sm {
-    margin-bottom: 2.25rem;
-    text-align: center;
-    font-size: 1.5rem;
-  }
-}
+//   @include lg-min {
+//     margin-bottom: 3rem;
+//     font-size: 2.5rem;
+//   }
+//   @include lg-md {
+//     margin-bottom: 2.625rem;
+//     font-size: 2rem;
+//   }
+//   @include md-sm {
+//     margin-bottom: 2.25rem;
+//     font-size: 1.5rem;
+//   }
+//   @include sm {
+//     margin-bottom: 2.25rem;
+//     text-align: center;
+//     font-size: 1.5rem;
+//   }
+// }
 
-h3 {
-  letter-spacing: 0.05em;
-  color: $color-gray;
-  font-size: 1.125rem;
-}
+// h3 {
+//   letter-spacing: 0.05em;
+//   color: $color-gray;
+//   font-size: 1.125rem;
+// }
 
-a {
-  text-decoration: none;
-  color: $color-light;
-}
+// a {
+//   text-decoration: none;
+//   color: $color-light;
+// }
 
-p {
-  color: $color-gray;
-}
+// p {
+//   color: $color-gray;
+// }
 
-input:focus {
-  outline: none;
-}
+// input:focus {
+//   outline: none;
+// }

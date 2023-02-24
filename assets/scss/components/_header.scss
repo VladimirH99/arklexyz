@@ -1,0 +1,38 @@
+@use "../presets/variables" as *;
+@use "../mixins/mixins-media" as *;
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    @include md{
+        margin-bottom: 180px;
+      }
+}
+
+img {
+    height: 100%;
+    transition: 0.5s;
+    width: 90px;
+    @include md{
+        width: 60px;
+      }
+}
+
+.logo {
+    background: radial-gradient(#fc910483, #CEBEAE 70%);
+    height: 80%;
+}
+.networks-img{
+    @include md{
+        width: 80px;
+      }
+}
+
+.networks-img:hover {
+    transform: scale(1.15);
+}
+.networks__link{
+    margin-right: -20px;
+}

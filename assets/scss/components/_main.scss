@@ -1,0 +1,52 @@
+@use "../presets/variables" as *;
+@use "../mixins/mixins-media" as *;
+h1 {
+    margin: 0 0 40px 0;
+    width: 100%;
+    text-align: center;
+    font-family: $font-header;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    line-height: 100%;
+    @include md{
+        font-size: 180px;
+    }
+
+    background: linear-gradient(181.77deg, #F85400 -11.82%, #FC9104 98.5%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+h2 {
+    text-align: center;
+    font-family: $font-main;
+    font-size: 24px;
+    margin: 0 20% 40px;
+    @include md{
+        font-size: 20px;
+        margin: 0 20% 32px;
+    }
+
+}
+
+h3 {
+
+    font-family: 'Carter One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    color: transparent;
+    -webkit-text-stroke: 2px #f56821;
+    @include md{
+        font-size: 24px;
+        margin-bottom: 200px;
+    }
+
+}
+
+div>h3 {
+    text-align: center;
+}
