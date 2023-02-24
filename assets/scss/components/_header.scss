@@ -5,23 +5,20 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 40px;
     align-items: center;
+    margin-bottom: 15vh;
     @include md{
-        margin-bottom: 180px;
+        margin-bottom: 20vh;
       }
       @include sm{
-        margin-bottom: 140px;
+        margin-bottom: 18vh;
       }
 }
 
 img {
-    height: 100%;
     transition: 0.5s;
-    width: 60px;
-    @include md{
-        width: 50px;
-      }
+    width: 80px;
+
       @include md{
         width: 70px;
       }
@@ -29,7 +26,6 @@ img {
 
 .logo {
     background: radial-gradient(#fc910483, #CEBEAE 70%);
-    height: 80%;
 }
 .networks{
     align-items: center;
@@ -37,7 +33,7 @@ img {
 .networks-img{
     width: 100px;
     @include md{
-        width: 80px;
+        width: 100px;
       }
       @include sm{
         width: 120px;
@@ -51,6 +47,9 @@ img {
     margin-right: -30px;
 }
 .twitter{
+    @include md{
+        margin-right: -30px;
+      }
     @include sm{
         margin-right: -50px;
       }
