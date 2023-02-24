@@ -34,7 +34,7 @@ header {
 }
 
 img {
-  width: 90px;
+  width: 60px;
   height: 100%;
 
   -webkit-transition: 0.5s;
@@ -47,6 +47,10 @@ img {
 
   background: -o-radial-gradient(rgba(252, 145, 4, 0.5137254902), #cebeae 70%);
   background:    radial-gradient(rgba(252, 145, 4, 0.5137254902), #cebeae 70%);
+}
+
+.networks-img {
+  width: 100px;
 }
 
 .networks-img:hover {
@@ -112,7 +116,7 @@ div > h3 {
     margin-bottom: 180px;
   }
   img {
-    width: 60px;
+    width: 50px;
   }
   .networks-img {
     width: 80px;

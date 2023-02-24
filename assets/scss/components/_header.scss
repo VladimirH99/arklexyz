@@ -14,9 +14,9 @@ header {
 img {
     height: 100%;
     transition: 0.5s;
-    width: 90px;
+    width: 60px;
     @include md{
-        width: 60px;
+        width: 50px;
       }
 }
 
@@ -25,6 +25,7 @@ img {
     height: 80%;
 }
 .networks-img{
+    width: 100px;
     @include md{
         width: 80px;
       }
