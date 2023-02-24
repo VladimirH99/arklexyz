@@ -10,7 +10,7 @@
   font-style: normal;
   line-height: 150%;
 
-  src: local("Gilroy"), url("/assets/fonts/Gilroy-Light.otf") format("otf");
+  src: url("/assets/fonts/gilroylight.otf") format("opentype");
 }
 body {
   margin: 0;
